@@ -1,0 +1,75 @@
+
+header{
+    display: flex;
+    justify-content: right;
+} 
+header button{
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+}
+header button:hover{
+    text-decoration: underline;
+}
+header button:nth-child(4){
+    background-color: orange;
+    width: 40px;
+    border-radius: 50%;
+}
+#appli{
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+
+#corps{
+    margin: 10px auto 170px auto;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#middleBar{
+    display: flex;
+    border: none;
+    width: 400px;
+    height: 30px;
+    cursor: text;
+}
+#image button{
+    cursor: pointer;
+    border: none;
+}
+#loupe{
+    cursor: default;
+    width: 20px;
+    height: 20px;
+}
+nav button{
+    cursor: pointer;
+}
+#recherche2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    width: 600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer button{
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+}
+footer button:hover{
+    text-decoration: underline;
+}
