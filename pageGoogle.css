@@ -13,13 +13,12 @@ header button:hover{
 }
 header button:nth-child(4){
     background-color: orange;
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
 }
 #appli{
     width: 20px;
     height: 20px;
-    color: red;
 }
 
 #corps{
@@ -31,12 +30,13 @@ header button:nth-child(4){
     justify-content: space-around;
     align-items: center;
 }
-#middleBar{
+#searchBar{
     display: flex;
-    border: none;
-    width: 400px;
-    height: 30px;
-    cursor: text;
+    flex-direction: row;
+    justify-content: center;
+}
+#siteSearch{
+    width:350px;
 }
 #image button{
     cursor: pointer;
